@@ -11,5 +11,7 @@ namespace ScoreService.API
         public int Income { get; set; }
         public bool Mortgage { get; set; }
 
+        public int Age { get; set; }
+
     }
 }

@@ -10,9 +10,10 @@ namespace ScoreService.API
         public Task GetScore(HttpContext httpContext)
         {
             var applicantRequest = DeserializeAsync<ApplicantRequest>(httpContext);
-            var rule = new IncomeRule();
+            
+            var ruleService = new RulesService();
            
-            if (rule.Validate(applicantRequest)){
+            if (ruleService.ValidateAll(applicantRequest)){
                 return httpContext.Response.WriteAsync("You are allowed");
             }
 
