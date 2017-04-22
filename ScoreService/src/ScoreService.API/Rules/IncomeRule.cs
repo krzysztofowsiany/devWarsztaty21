@@ -7,7 +7,7 @@ namespace ScoreService.API{
     {
         public bool Validate(ApplicantRequest applicationRequest)
         {
-            return applicationRequest.Income > 10000;
+            return applicationRequest.Income > 15000;
         }
     }
 }
