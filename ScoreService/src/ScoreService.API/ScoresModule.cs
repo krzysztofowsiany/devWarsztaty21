@@ -9,9 +9,14 @@ namespace ScoreService.API
     {
         public Task GetScore(HttpContext httpContext)
         {
-            var result = DeserializeAsync<ApplicantRequest>(httpContext);
+            var applicantRequest = DeserializeAsync<ApplicantRequest>(httpContext);
+            var rule = new IncomeRule();
+           
+            if (rule.Validate(applicantRequest)){
+                return httpContext.Response.WriteAsync("You are allowed");
+            }
 
-            return httpContext.Response.WriteAsync($" {result.Name} po zmiana dddanie scoremodules ");
+            return httpContext.Response.WriteAsync("Not allowed");
         }
 
         public T DeserializeAsync<T>(HttpContext context) where T : class
@@ -29,20 +34,5 @@ namespace ScoreService.API
                 return null;
             }
         }
-    }
-
-    public class ApplicantRequest
-    {
-
-
-        public string Name { get; set; }
-
-        public string LastName { get; set; }
-        public string Country { get; set; }
-
-
-        public int Income { get; set; }
-        public bool Mortgage { get; set; }
-
     }
 }

@@ -46,7 +46,8 @@ namespace ScoreService.API
             });
 
             routeBuilder.MapPost("scores", context =>{
-
+                 var scoresModule = new ScoresModule();
+                return scoresModule.GetScore(context);
             });
 
             var routes = routeBuilder.Build();
