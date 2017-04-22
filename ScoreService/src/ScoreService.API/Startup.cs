@@ -45,6 +45,10 @@ namespace ScoreService.API
 
             });
 
+            routeBuilder.MapPost("scores", context =>{
+
+            });
+
             var routes = routeBuilder.Build();
             app.UseRouter(routes);
         }
