@@ -1,0 +1,8 @@
+D:\PROJECTS\devWarsztaty\devWarsztaty\ScoreService\src\ScoreService.API\bin\Debug\netcoreapp1.1\ScoreService.API.deps.json
+D:\PROJECTS\devWarsztaty\devWarsztaty\ScoreService\src\ScoreService.API\bin\Debug\netcoreapp1.1\ScoreService.API.runtimeconfig.json
+D:\PROJECTS\devWarsztaty\devWarsztaty\ScoreService\src\ScoreService.API\bin\Debug\netcoreapp1.1\ScoreService.API.runtimeconfig.dev.json
+D:\PROJECTS\devWarsztaty\devWarsztaty\ScoreService\src\ScoreService.API\bin\Debug\netcoreapp1.1\ScoreService.API.dll
+D:\PROJECTS\devWarsztaty\devWarsztaty\ScoreService\src\ScoreService.API\bin\Debug\netcoreapp1.1\ScoreService.API.pdb
+D:\PROJECTS\devWarsztaty\devWarsztaty\ScoreService\src\ScoreService.API\obj\Debug\netcoreapp1.1\ScoreService.API.AssemblyInfo.cs
+D:\PROJECTS\devWarsztaty\devWarsztaty\ScoreService\src\ScoreService.API\obj\Debug\netcoreapp1.1\ScoreService.API.dll
+D:\PROJECTS\devWarsztaty\devWarsztaty\ScoreService\src\ScoreService.API\obj\Debug\netcoreapp1.1\ScoreService.API.pdb
